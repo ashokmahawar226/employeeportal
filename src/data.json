@@ -1,0 +1,117 @@
+{
+    "data":[
+        {
+          "id": "1",
+          "firstName": "John",
+          "lastName": "Doe",
+          "email": "john.doe@example.com",
+          "phone": "123-456-7890",
+          "guardianPhone": "987-654-3210",
+          "address": "123 Main St, Anytown, USA",
+          "profilePicture": "https://example.com/profiles/janesmith.jpg",
+          "freeze":false
+        },
+        {
+          "id": "2",
+          "firstName": "Jane",
+          "lastName": "Smith",
+          "email": "jane.smith@example.com",
+          "phone": "456-789-0123",
+          "guardianPhone": "210-987-6543",
+          "profilePicture": "https://example.com/profiles/janesmith.jpg",
+          "address": "456 Elm St, Othertown, USA",
+          "freeze":false
+        },
+        {
+          "id": "3",
+          "firstName": "Michael",
+          "lastName": "Johnson",
+          "email": "michael.johnson@example.com",
+          "profilePicture": "https://example.com/profiles/janesmith.jpg",
+          "phone": "789-012-3456",
+          "guardianPhone": "543-210-9876",
+          "address": "789 Oak St, Anycity, USA",
+          "freeze":false
+
+        },
+        {
+          "id": "4",
+          "firstName": "Emily",
+          "lastName": "Williams",
+          "email": "emily.williams@example.com",
+          "profilePicture": "https://example.com/profiles/janesmith.jpg",
+          "phone": "012-345-6789",
+          "guardianPhone": "876-543-2109",
+          "address": "012 Pine St, Othercity, USA",
+          "freeze":false
+
+        },
+        {
+          "id": "5",
+          "firstName": "David",
+          "lastName": "Brown",
+          "email": "david.brown@example.com",
+          "phone": "234-567-8901",
+          "guardianPhone": "109-876-5432",
+          "profilePicture": "https://example.com/profiles/janesmith.jpg",
+          "address": "234 Cedar St, Anystate, USA",
+          "freeze":false
+
+        },
+        {
+          "id": "6",
+          "firstName": "Emma",
+          "lastName": "Jones",
+          "email": "emma.jones@example.com",
+          "phone": "567-890-1234",
+          "guardianPhone": "432-109-8765",
+          "profilePicture": "https://example.com/profiles/janesmith.jpg",
+          "address": "567 Maple St, Otherstate, USA",
+          "freeze":false
+        },
+        {
+          "id": "7",
+          "firstName": "Daniel",
+          "lastName": "Garcia",
+          "email": "daniel.garcia@example.com",
+          "phone": "890-123-4567",
+          "guardianPhone": "765-432-1098",
+          "profilePicture": "https://example.com/profiles/janesmith.jpg",
+          "address": "890 Birch St, Anyvillage, USA",
+          "freeze":false
+        },
+        {
+          "id": "8",
+          "firstName": "Olivia",
+          "lastName": "Martinez",
+          "email": "olivia.martinez@example.com",
+          "phone": "123-456-7890",
+          "guardianPhone": "098-765-4321",
+          "profilePicture": "https://example.com/profiles/janesmith.jpg",
+          "address": "123 Oak St, Othervillage, USA",
+          "freeze":false
+        },
+        {
+          "id": "9",
+          "firstName": "Alexander",
+          "lastName": "Hernandez",
+          "email": "alexander.hernandez@example.com",
+          "phone": "345-678-9012",
+          "guardianPhone": "321-098-7654",
+          "profilePicture": "https://example.com/profiles/janesmith.jpg",
+          "address": "345 Cedar St, Anymountain, USA",
+          "freeze":false
+        },
+        {
+          "id": "10",
+          "firstName": "Sophia",
+          "lastName": "Young",
+          "email": "sophia.young@example.com",
+          "phone": "678-901-2345",
+          "guardianPhone": "654-321-0987",
+          "profilePicture": "https://example.com/profiles/janesmith.jpg",
+          "address": "678 Elm St, Othermountain, USA",
+          "freeze":false
+        }
+      ]      
+}

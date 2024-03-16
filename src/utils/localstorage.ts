@@ -3,6 +3,7 @@ import { User } from "../auth/AuthModal";
 const ROOT = "fcroot";
 export interface ILocalStorage {
    user?:User
+   employeeData?:any
 };
 
 

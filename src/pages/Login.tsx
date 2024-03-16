@@ -19,7 +19,7 @@ const Login = () => {
     if (storedUser && storedUser.userToken) {
         setAuthenticated && setAuthenticated(true)
         setUser && setUser(storedUser)
-      navigate(routesUrls.home,{
+      navigate(routesUrls.employeeList,{
         replace: true
       });
     }
@@ -63,7 +63,7 @@ const Login = () => {
           username : email
         }
       })
-    navigate(routesUrls.home,{
+    navigate(routesUrls.employeeList,{
       replace: true
     });
   }

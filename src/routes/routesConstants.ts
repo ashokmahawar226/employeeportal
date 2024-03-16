@@ -1,7 +1,11 @@
 const routesUrls = {
     root:"",
-    home: '/Home',
-    login: '/Login',
+    home: '/home',
+    login: '/login',
+    employeeList : "/employeeList",
+    employeeDetails :"/employee/:id",
+    editEmployeeDetails  :"/editEmployee"
+    
 }
 
 export { routesUrls}
