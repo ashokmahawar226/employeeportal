@@ -85,11 +85,7 @@ const EmployeeList: React.FC<Props> = ({  logout }) => {
                 }} role="button">
                     <p>{employee.freeze ? "unfreeze" : "freeze" }</p>
                  </div>
-                 <div style={{cursor:"pointer"}} onClick={()=>{
-                    onPressEdit(employee.id)
-                }} role="button">
-                    link
-                </div>
+                 <Link to={`/employee/${employee.id}`}>link</Link>
                 <div style={{cursor:"pointer"}} onClick={()=>{
                     onClickDelete(index)
                 }} role="button">

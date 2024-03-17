@@ -1,7 +1,8 @@
 // components/EmployeeDetails.tsx
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-
+import { rootStorage } from '../../utils/localstorage';
+import style from './EmployeeDetails.module.scss'
 interface Employee {
   id: string;
   firstName: string;
@@ -22,9 +23,11 @@ const EmployeeDetails: React.FC<Props> = ({  }) => {
   useEffect(() => {
     const fetchEmployeeDetails = async () => {
       try {
-        const response = await fetch(`/api/employees/${id}`);
-        const data: Employee = await response.json();
-        setEmployee(data);
+       const employeeData = rootStorage().getLocalStorage.employeeData 
+       if(employeeData){
+       const data =  employeeData.filter((ele:any)=>ele.id === id)
+       data?.[0] && setEmployee(data[0]);
+       }
       } catch (error) {
         console.error('Error fetching employee details:', error);
       }
@@ -37,7 +40,7 @@ const EmployeeDetails: React.FC<Props> = ({  }) => {
   }
 
   return (
-    <div>
+    <div className={style.container}>
       <h2>Employee Details</h2>
       <p>First Name: {employee.firstName}</p>
       <p>Last Name: {employee.lastName}</p>
